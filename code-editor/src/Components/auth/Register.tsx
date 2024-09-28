@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from 'react'
-import OathBtns from '../Components/OathBtns'
+import OathBtns from './OathBtns'
 
 const Register = (props: { setSignup: React.Dispatch<React.SetStateAction<boolean>> }) => {
     const ref = useRef<HTMLDivElement>(null);
