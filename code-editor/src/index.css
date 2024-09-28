@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.form-container{
+  box-shadow: 0 14px 28px rgba(1,1,1,0.25), 
+  0 10px 10px rgba(0,0,0,0.22);
+}
+
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 150ms;
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 150ms;
+}
+
+/* .fade-enter {
+  transform: translateX(-100%);
+}
+
+.fade-enter-active {
+  transform: translateX(0);
+  transition: transform 150ms ease-in-out;
+}
+
+.fade-exit-active {
+  transform: translateX(-100%);
+  transition: transform 150ms ease-in-out;
+} */
