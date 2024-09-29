@@ -2,7 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import {
-  createBrowserRouter,
+  createHashRouter,
   RouterProvider,
 } from "react-router-dom";
 import "./index.css";
@@ -10,9 +10,9 @@ import Auth from './Routes/Auth.tsx';
 import Landing from './Routes/Landing.tsx';
 import ErrorPage from './Routes/ErrorPage.tsx';
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
-    path: "/",
+    path: "/*",
     element: <Landing/>,
     errorElement: <ErrorPage/>
   },
