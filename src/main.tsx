@@ -12,7 +12,7 @@ import ErrorPage from './Routes/ErrorPage.tsx';
 
 const router = createHashRouter([
   {
-    path: "/*",
+    path: "/",
     element: <Landing/>,
     errorElement: <ErrorPage/>
   },
