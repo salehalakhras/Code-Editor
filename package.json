@@ -3,7 +3,11 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+<<<<<<< HEAD
   "homepage": "https://salehalakhras.github.io/Code-Editor/#",
+=======
+  "homepage": "https://salehalakhras.github.io/Code-Editor/",
+>>>>>>> fff9693125f9e93f1b621f169edca232f0ece932
   "scripts": {
     "dev": "vite --port 3000",
     "build": "tsc -b && vite build",
