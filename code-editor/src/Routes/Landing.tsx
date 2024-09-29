@@ -1,4 +1,3 @@
-import React from 'react'
 import Header from '../Components/landing/Header'
 import Hero from '../Components/landing/Hero'
 import Benefits from '../Components/landing/Benefits'
