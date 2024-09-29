@@ -1,7 +1,10 @@
+import { useNavigate } from "react-router-dom";
 
 const Hero = () => {
+    const navigate = useNavigate();
+
     const handleGetStartedBtn = (): void => {
-        window.location.href = '/auth';
+        navigate('/auth');
     }
 
     return (
